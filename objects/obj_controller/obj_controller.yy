@@ -1,20 +1,14 @@
 {
-  "spriteId": {
-    "name": "spr_player_idle",
-    "path": "sprites/spr_player_idle/spr_player_idle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_entity_parent",
-    "path": "objects/obj_entity_parent/obj_entity_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsGroup": 0,
+  "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -23,7 +17,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":77,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_controller",
   "tags": [],
   "resourceType": "GMObject",
 }

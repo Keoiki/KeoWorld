@@ -1,20 +1,17 @@
 {
-  "spriteId": {
-    "name": "spr_player_idle",
-    "path": "sprites/spr_player_idle/spr_player_idle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_entity_parent",
-    "path": "objects/obj_entity_parent/obj_entity_parent.yy",
+    "name": "obj_slope",
+    "path": "objects/obj_slope/obj_slope.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsGroup": 0,
+  "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_slope_rx",
   "tags": [],
   "resourceType": "GMObject",
 }
